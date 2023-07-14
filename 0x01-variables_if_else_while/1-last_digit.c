@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
   *main - Entry point
   *Description: 'get the last degits of a number'
