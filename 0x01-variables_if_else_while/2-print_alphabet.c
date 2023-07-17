@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
-  *main - Entry pont
-  *Description: 'Print alphabete lowercase
-  *Return: Always 0
-  */
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
+ */
 int main(void)
 {
-	int n = 97;
-	
-	while (n <= 122)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(n);
-		n++;
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
